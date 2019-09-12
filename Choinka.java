@@ -3,8 +3,8 @@ package bb.bbjava.poczatek.javaTrening;
 public class Choinka {
     public static void main(String[] args) {
 
-        int size = 1;
-        int maxHigh = 1;
+        int size = 10;
+        int maxHigh = 3;
 
         for (int seg = 1; seg <= size; seg++) {
             for (int row = 0; row < seg - Math.max(seg - maxHigh, 0); row ++) {
