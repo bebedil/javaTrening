@@ -6,7 +6,7 @@ package bb.bbjava.poczatek.javaTrening.rev;
 
 public class Rev {
     public static void main(String[] args) {
-        String output = reverse("Testowanie");
+        String output = reverse("palindrom");
         System.out.println(output);
     }
     private static String reverse(String input) {
